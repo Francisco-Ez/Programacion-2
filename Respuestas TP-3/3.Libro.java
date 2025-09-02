@@ -1,6 +1,5 @@
 
 package libro;
-
 //3. Encapsulamiento con la Clase Libro
 //a. Crear una clase Libro con atributos privados: titulo, autor,
 //añoPublicacion.
@@ -41,3 +40,4 @@ public class Libro {
         System.out.println(libro.getTitulo() + " - " + libro.getAutor() + " - " + libro.getAñoPublicacion());
     }
 }
+
