@@ -1,5 +1,4 @@
 package gallina;
-
 //4. Gestión de Gallinas en Granja Digital
 //a. Crear una clase Gallina con los atributos: idGallina, edad,
 //huevosPuestos.
@@ -43,4 +42,5 @@ public class Gallina {
         g1.mostrarEstado();
         g2.mostrarEstado();
     }
+
 }
