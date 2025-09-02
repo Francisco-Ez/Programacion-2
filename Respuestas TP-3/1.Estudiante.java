@@ -1,4 +1,4 @@
-
+package estudiante;
 //1. Registro de Estudiantes
 //a. Crear una clase Estudiante con los atributos: nombre, apellido, curso,
 //calificación.
@@ -7,7 +7,6 @@
 //Tarea: Instanciar a un estudiante, mostrar su información, aumentar y disminuir
 //calificaciones.
 
-package estudiante;
 public class Estudiante {
     String nombre;
     String apellido;
@@ -43,4 +42,5 @@ public class Estudiante {
         e1.mostrarInfo();
     }
 }
+
 
