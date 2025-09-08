@@ -8,7 +8,7 @@ public class Main {
         Empleado emp2 = new Empleado("María López", "Analista");
         Empleado emp3 = new Empleado("Carlos Ruiz", "Desarrollador");
 
-        emp1.actualizarSalario(10);
+        emp1.actualizarSalario(10.0);
         emp2.actualizarSalario(5000);
 
         System.out.println(emp1);
@@ -18,3 +18,4 @@ public class Main {
         System.out.println("Total de empleados: " + Empleado.mostrarTotalEmpleados());
     }
 }
+
